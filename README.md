@@ -1,22 +1,18 @@
 # D3DynamicTreeLayout-QS
 Qlik Sense extension that displays an Hierarchical Tree using D3, with user interaction.
 
-Tested with Qlik Sense November 2018.
+Tested with Qlik Sense June 2019 Patch 3.
 
 Features included are:
-  * Horizontal and Vertical Orentation
-  * Customizable look and coloring
-  * Nodes can be represented by circles or rectangular boxes
-  * Tooltips on Mouse Over for additional info - tooltips can be plain text of HTML based for custom look & feel
-  * SVG Rectangle Boxes can display 1 line of additional info
-  * Fully customize rectangle boxes with HTML (New with v1.4)
-  * Nodes are selectable - selected node will also select related child nodes
-  * Nodes can have indepent colors
-  * Control the links colors independently
+  * Expanded distance between node levels for use with fewer levels
+  * Offset distance from edge to handle longer node names
+  * added persistent tooltip on the righthand edge for use with horizontal lr orientation
+  * moved node name location on vertical layouts to be on the opposite side of the links
 
 An example and tutorial app can be found in the 'App Example and Tutorial' folder.
 
 ### Release History (most recent first)
+ * v1.4.1 - New features from master branch
  * v1.4 - New feature! Fully customize look of Rectangle boxes with HTML
  * v1.3.1 Corrected 2 major bugs:
  		- Configuration of extension from scratch would pass on verification of Node Name specification in latest Qlik Sense releases;
